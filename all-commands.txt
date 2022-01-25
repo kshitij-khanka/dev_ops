@@ -1,0 +1,11 @@
+git init --> intialise the repo
+vi --> file editor
+git add / . --> add files/all files to staging area
+git commit / -m --> commit the file "-m" to write msg
+git restore --staging --> remove files from staging area
+git log --> see all changes/updates made to repo
+ 
+git reset <hash> --> to go back to the commit
+git stash --> store files separeately withoout making commit
+git stash pop --> bring back stashed files
+git stash clear --> permanently delete stash files
